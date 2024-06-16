@@ -25,7 +25,7 @@
     <?php// include ''; ?> 
 
     <!-- Contáctanos -->
-    <?php// include ''; ?> 
+    <?php include 'secciones/contactanos.php'; ?> 
 
 </body>
 </html>
