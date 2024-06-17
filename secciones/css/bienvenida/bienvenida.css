@@ -12,10 +12,6 @@ body {
     padding: 10px;
 }
 
-.navbar-left, .navbar-right {
-    display: flex;
-}
-
 .navbar button {
     background-color: #333;
     color: white;
@@ -34,7 +30,7 @@ body {
     text-align: center;
 }
 
-.welcome-heading {
+.content h1 {
     font-size: 32px;
     color: #333;
 }
