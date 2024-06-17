@@ -53,11 +53,11 @@ body {
     right: 20px;
     background-color: #333;
     color: white;
-    width: 40px;
-    height: 40px;
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Alto del botón */
     border-radius: 50%;
     text-align: center;
-    line-height: 40px;
+    line-height: 60px; /* Ajustar según el alto del botón */
     font-size: 24px;
     text-decoration: none;
     z-index: 1000; /* Asegura que esté por encima del contenido */
@@ -67,7 +67,7 @@ body {
 }
 
 .scroll-to-top img {
-    width: 20px; /* Ajustar el tamaño de la imagen según sea necesario */
+    width: 40px; /* Ajustar el tamaño de la imagen */
     height: auto;
     vertical-align: middle; /* Alineación vertical del ícono */
 }
