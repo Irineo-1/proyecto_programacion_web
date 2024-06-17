@@ -51,14 +51,10 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #333;
-    color: white;
     width: 60px; /* Ancho del botón */
     height: 60px; /* Alto del botón */
-    border-radius: 50%;
     text-align: center;
     line-height: 60px; /* Ajustar según el alto del botón */
-    font-size: 24px;
     text-decoration: none;
     z-index: 1000; /* Asegura que esté por encima del contenido */
     opacity: 0; /* Lo hacemos invisible inicialmente */
