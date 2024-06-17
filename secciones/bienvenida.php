@@ -17,8 +17,7 @@
         </div>
     </div>
     <div class="content">
-        <h1>Bienvenido a la Página</h1>
-        <p>Esta es la página de bienvenida.</p>
+        <h1 style="text-align: center;">¡Bienvenido a TecnoParts!</h1>
     </div>
 </body>
 </html>
