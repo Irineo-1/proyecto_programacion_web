@@ -67,8 +67,9 @@ body {
 }
 
 .scroll-to-top img {
-    width: 100%;
+    width: 20px; /* Ajustar el tamaño de la imagen según sea necesario */
     height: auto;
+    vertical-align: middle; /* Alineación vertical del ícono */
 }
 
 .scroll-to-top:hover {
