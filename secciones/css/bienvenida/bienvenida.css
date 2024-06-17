@@ -53,8 +53,8 @@ body {
     right: 20px;
     background-color: #333; /* Color de fondo del botón */
     color: white;
-    width: 256px; /* Ancho del botón */
-    height: 256px; /* Alto del botón */
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Alto del botón */
     border-radius: 50%;
     text-align: center;
     line-height: 60px; /* Ajustar según el alto del botón */
