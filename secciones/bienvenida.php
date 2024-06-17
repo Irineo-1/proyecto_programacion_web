@@ -17,3 +17,16 @@
     </a>
 </section>
 <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.querySelector(".scroll-to-top").classList.add("show");
+        } else {
+            document.querySelector(".scroll-to-top").classList.remove("show");
+        }
+    }
+</script>
+
