@@ -67,7 +67,7 @@ body {
 }
 
 .scroll-to-top img {
-    width: 40px; /* Ajustar el tamaño de la imagen */
+    width: 256px; /* Ajustar el tamaño de la imagen */
     height: auto;
     vertical-align: middle; /* Alineación vertical del ícono */
 }
