@@ -1,9 +1,41 @@
 .every-row {
-    width: 100%;
-    /* width: calc((18rem + 5px + 20px) * 3); */
+    width: calc((18rem + 25px) * 3);
     border-radius: 10px;
     box-shadow: 0px 0px 8px -3px black;
     padding: 5px 15px;
+    height: 350px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.btn-direccion {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 7px -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.next-product {
+    right: -40px;
+    top: 50%;
+    transform: translate(-0%, -50%);
+}
+
+.back-product {
+    left: -40px;
+    top: 50%;
+    transform: translate(-0%, -50%);
+}
+
+.every-col {
+    display: inline-block;
 }
 
 .title-productos {
@@ -24,4 +56,8 @@
 
 .card:hover .title-productos {
     color: blue;
+}
+
+.width-li-card {
+    width: auto !important;
 }
