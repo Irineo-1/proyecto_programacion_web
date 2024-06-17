@@ -1,10 +1,4 @@
 <section>
-
-<head>
-    <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
-</head>
-
-<body>
     <div class="navbar">
         <div class="navbar-left">
             <button onclick="window.location.href='index.php'">Inicio</button>
@@ -15,8 +9,7 @@
         </div>
     </div>
     <div class="content">
-        <h1 style="text-align: center;">¡Bienvenido a TecnoParts!</h1>
+        <h1>¡Bienvenido a TecnoParts!</h1>
     </div>
-</body>
-
+    <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
 </section>
