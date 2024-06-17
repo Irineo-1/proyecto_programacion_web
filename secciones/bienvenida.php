@@ -13,7 +13,7 @@
         <!-- Contenido de la página de bienvenida -->
     </div>
     <a href="#" class="scroll-to-top">
-        <img src="arrow-up.png" alt="Subir">
+        <img src="https://cdn-icons-png.flaticon.com/512/892/892550.png" alt="Subir">
     </a>
 </section>
 <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
