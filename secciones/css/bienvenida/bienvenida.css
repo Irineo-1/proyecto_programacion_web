@@ -51,7 +51,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #333; /* Color de fondo del botón */
+    background-color: #202020; /* Color de fondo del botón */
     width: 60px; /* Ancho del botón */
     height: 60px; /* Alto del botón */
     border-radius: 50%;
