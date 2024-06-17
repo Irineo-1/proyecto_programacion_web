@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 
 .navbar {
@@ -30,4 +31,10 @@ body {
 
 .content {
     padding: 20px;
+    text-align: center;
+}
+
+.welcome-heading {
+    font-size: 32px;
+    color: #333;
 }
