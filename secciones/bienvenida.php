@@ -18,6 +18,5 @@
         <h1 style="text-align: center;">¡Bienvenido a TecnoParts!</h1>
     </div>
 </body>
-</html>
 
 </section>
