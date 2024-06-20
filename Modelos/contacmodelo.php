@@ -35,7 +35,7 @@ class FormularioContacto {
     }
 
     public function enviarCorreo() {
-        $to = "tu_correo@ejemplo.com"; // Cambia esto por tu dirección de correo
+        $to = "richardpuga17@gmail.com"; 
         $subject = "Nuevo mensaje de contacto";
         $body = "Nombre: $this->nombre\nCorreo: $this->correo\nTeléfono: $this->telefono\nMensaje:\n$this->mensaje";
         $headers = "From: $this->correo";
