@@ -11,7 +11,7 @@
 <body>
     
     <!-- Ejemplo de como insertar un codigo aparte -->
-    <?php include 'secciones/catalogoProductos.php'; ?> 
+    <?php //include 'secciones/catalogoProductos.php'; ?> 
 
     <!-- Inicio bienvenida -->
     <?php// include ''; ?> 
