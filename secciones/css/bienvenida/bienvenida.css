@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
     text-align: center;
 }
 
@@ -26,8 +26,10 @@ body {
     color: white;
     padding: 10px 20px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 .navbar-left, .navbar-right {
@@ -54,6 +56,7 @@ body {
     align-items: center;
     justify-content: center;
     flex: 1;
+    height: 100vh; /* Asegura que el contenido principal ocupe toda la altura de la ventana */
 }
 
 .header {
