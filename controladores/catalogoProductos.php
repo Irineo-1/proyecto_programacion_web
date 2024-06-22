@@ -51,5 +51,4 @@ if($_POST["action"] == "comprar") {
     // $res = Categorias::getAllCategorias();
     // echo json_encode($res);
 }
-
 ?>

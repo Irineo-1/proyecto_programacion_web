@@ -3,7 +3,6 @@ import { createApp, ref, computed } from "./initVue.js"
 createApp({
 
     setup() {
-
         let productos = ref([])
         let categorias = ref([])
         let buscador = ref("")

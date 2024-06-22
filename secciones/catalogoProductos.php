@@ -4,8 +4,10 @@
             <div class="every-row" :id="idCurrentSlider">
             
                 <div class="every-col" v-for="producto in productos">
+
                     <div class="card" style="width: 18rem; border: none; margin: 0px 5px;" @click="validateUser">
                         <img :src="'utils/' + producto.imagen" class="card-img-top" style="width: 200px; height: 200px;">
+
                         <div class="card-body" style="height: 150px;">
                             <p class="card-text title-productos">
                                 {{producto.nombre}}
