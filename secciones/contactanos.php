@@ -24,8 +24,10 @@
 
     <label for="mensaje">Mensaje:</label>
     <textarea id="mensaje" name="mensaje" required></textarea>
-
-    <button type="submit">Enviar mensaje</button>
+   
+    <form action="enviar.php" method=""post>
+      <button type="submit">Enviar mensaje</button>
+    </form>
   </form>
 
   <div id="mensajes"></div>
