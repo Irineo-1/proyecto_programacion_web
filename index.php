@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina principal</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">  
     <link rel="stylesheet" href="./secciones/css/Contactanos/StyleConta.css">
     <link rel="stylesheet" href="secciones/css/catalogoProductos/catalogo_productos.css">
@@ -15,6 +16,14 @@
 
 </head>
 <body>
+    
+    <!-- Ejemplo de como insertar un codigo aparte -->
+<<<<<<<<< Temporary merge branch 1
+    <?php // include 'secciones/catalogoProductos.php'; ?> 
+=========
+    <?php //include 'secciones/catalogoProductos.php'; ?> 
+>>>>>>>>> Temporary merge branch 2
+
     <!-- Inicio bienvenida -->
     <?php include 'secciones/bienvenida.php'; ?>
 
