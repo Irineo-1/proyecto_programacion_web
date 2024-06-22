@@ -18,11 +18,7 @@
 <body>
     
     <!-- Ejemplo de como insertar un codigo aparte -->
-<<<<<<<<< Temporary merge branch 1
     <?php // include 'secciones/catalogoProductos.php'; ?> 
-=========
-    <?php //include 'secciones/catalogoProductos.php'; ?> 
->>>>>>>>> Temporary merge branch 2
 
     <!-- Inicio bienvenida -->
     <?php include 'secciones/bienvenida.php'; ?>
