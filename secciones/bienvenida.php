@@ -4,7 +4,7 @@
                 <button onclick="window.location.href='index.php'">Inicio</button>
             </div>
             <div class="navbar-right">
-                <button onclick="window.location.href='catalogoProductosBusqueda.php'">Productos</button>
+                <button onclick="window.location.href='secciones/catalogoProductosBusqueda.php'">Productos</button>
                 <button onclick="window.location.href='contactos.php'">Inicio de Sesión</button>
             </div>
         </div>
