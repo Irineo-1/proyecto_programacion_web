@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(29, 37, 45, 0.9); /* Fondo semitransparente */
+    background-color: rgba(29, 37, 45, 0.9);; /* Fondo semitransparente */
     color: white;
     padding: 10px 20px;
     width: 100%;
@@ -45,7 +45,8 @@ body {
 .main-content {
     margin-top: 80px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -53,10 +54,11 @@ body {
     background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
     padding: 20px;
     border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 40px; /* Margen inferior para la separación */
 }
 
 .header .logo {
-    max-width: 250px;
+    max-width: 150px;
     margin-bottom: 20px;
 }
 
@@ -74,12 +76,17 @@ body {
     font-weight: 400;
 }
 
+/* Espaciador */
+.spacer {
+    height: 50px; /* Ajusta esta altura según tus necesidades */
+}
+
 /* Estilos para el botón de subir */
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #2c3e50;
+    background-color: #15171b;
     width: 60px;
     height: 60px;
     border-radius: 50%;
