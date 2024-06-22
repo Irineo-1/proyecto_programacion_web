@@ -1,12 +1,12 @@
 /* Estilos generales */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Cambia la fuente a Roboto */
     background-color: #f0f2f5;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    min-height: 100vh;
     text-align: center;
 }
 
@@ -71,12 +71,14 @@ body {
     font-size: 32px;
     color: #2c3e50;
     margin-bottom: 10px;
+    font-weight: 700; /* Usa la versión negrita de Roboto */
 }
 
 .header p {
     font-size: 18px;
     color: #555;
     margin-bottom: 20px;
+    font-weight: 400; /* Usa la versión normal de Roboto */
 }
 
 /* Estilos para el botón de subir */
