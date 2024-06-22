@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario de Contacto</title>
   <link rel="stylesheet" href="./secciones/css/Contactanos/StyleConta.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 
@@ -13,7 +12,7 @@
   <h2>¡Contáctanos!</h2>
   <p>¿Tienes alguna pregunta o comentario? No dudes en contactarnos.</p>
 
-  <form id="formulario-contacto" action="enviar.php" method="post">
+  <form id="formulario-contacto" method="post">
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre" required>
 
@@ -25,12 +24,16 @@
 
     <label for="mensaje">Mensaje:</label>
     <textarea id="mensaje" name="mensaje" required></textarea>
-
-    <button type="submit">Enviar mensaje</button>
+   
+    <form action="enviar.php" method=""post>
+      <button type="submit">Enviar mensaje</button>
+    </form>
   </form>
 
   <div id="mensajes"></div>
 </section>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./secciones/js/contactanos.js"></script>
 </html>

@@ -1,4 +1,4 @@
-<script>
+
 $(document).ready(function() {
     $('#formulario-contacto').submit(function(event) {
         event.preventDefault(); 
@@ -7,7 +7,7 @@ $(document).ready(function() {
         
         $.ajax({
             type: 'POST',
-            url: 'enviar.php',
+            url: 'localhost/proyecto_progamacion_web/Controladores/enviar.php',
             data: formData,
             success: function(response) {
                 
@@ -20,4 +20,3 @@ $(document).ready(function() {
         });
     })
 });
-</script>

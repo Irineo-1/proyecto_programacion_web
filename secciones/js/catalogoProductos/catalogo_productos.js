@@ -1,4 +1,4 @@
-const { createApp, ref } = Vue
+import { createApp, ref } from "./initVue.js"
 
 createApp({
 
@@ -34,6 +34,10 @@ createApp({
             })
         }
 
+        const validateUser = () => {
+            window.location.href = "http://localhost/proyecto_programacion_web/secciones/catalogoProductosBusqueda.php"
+        }
+
         const decodeJson = (data) => {
             try {
                 return JSON.parse(data)
@@ -49,6 +53,7 @@ createApp({
         return {
             nextItem,
             backItem,
+            validateUser,
             idCurrentSlider,
             currentScroll,
             productos

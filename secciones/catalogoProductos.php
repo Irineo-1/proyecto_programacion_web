@@ -4,14 +4,16 @@
             <div class="every-row" :id="idCurrentSlider">
             
                 <div class="every-col" v-for="producto in productos">
-                    <div class="card" style="width: 18rem; border: none; margin: 0px 5px;">
-                        <img src="https://imgs.search.brave.com/eLsVxtv81rOFQe7sOKDmX9oW2JZh-6qbYTLnANedf4Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE1/Mjg1MDExNi9waG90/by9sYXB0b3Atb24t/dGFibGUuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPW5wVjVs/ZHJzT0dsZ21XaHRf/U2FIMl9KVzRkU2J6/a0ZzMmJnT1ZZSksy/WFk9" class="card-img-top" alt="...">
+
+                    <div class="card" style="width: 18rem; border: none; margin: 0px 5px;" @click="validateUser">
+                        <img :src="'utils/' + producto.imagen" class="card-img-top" style="width: 200px; height: 200px;">
+
                         <div class="card-body" style="height: 150px;">
                             <p class="card-text title-productos">
                                 {{producto.nombre}}
                             </p>
                             <p class="card-text price">
-                                ${{producto.precio}}
+                                ${{producto.precio.replace(/\B(?=(\d{3})+(?!\d))/g, ",")}}
                             </p>
                         </div>
                     </div>

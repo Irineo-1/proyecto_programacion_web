@@ -1,7 +1,5 @@
 <?php
 
-require "../config/conexion.php";
-
 class Productos {
 
     private static $Tabla = "productos"; 
@@ -23,6 +21,20 @@ class Productos {
     public static function getLimitProducts($limit) {
         $conn = Conexion::getConnetion();
         $query = "SELECT * FROM ".self::$Tabla." LIMIT $limit";
+
+        $res = $conn->query($query);
+        $data = [];
+
+        while($row = $res->fetch_assoc()) {
+            array_push($data, $row);
+        }
+
+        return $data;
+    }
+
+    public static function getProductoById($id) {
+        $conn = Conexion::getConnetion();
+        $query = "SELECT * FROM ".self::$Tabla." WHERE id = '$id'";
 
         $res = $conn->query($query);
         $data = [];
@@ -56,6 +68,16 @@ class Productos {
 
         return $res;
     }
+
+    public static function comprar($producto) {
+        $conn = Conexion::getConnetion();
+        $query = "UPDATE ".self::$Tabla." SET existencia = existencia - ".$producto->cantidad." WHERE id = ".$producto->id."";
+
+        $res = $conn->query($query);
+
+        return $res;
+    }
+
 }
 
 ?>
