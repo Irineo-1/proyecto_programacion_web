@@ -76,6 +76,20 @@ body {
     font-weight: 400;
 }
 
+.header2 {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 40px; /* Margen inferior para la separación */
+}
+
+.header2 h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
 /* Espaciador */
 .spacer {
     height: 50px; /* Ajusta esta altura según tus necesidades */
