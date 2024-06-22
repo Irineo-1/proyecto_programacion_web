@@ -14,7 +14,7 @@
         <p>Su socio de confianza en piezas tecnológicas.</p>
     </div>
     <a href="#" class="scroll-to-top">
-        <img src="arrow-up.png" alt="Subir">
+        <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
     </a>
     <footer>
         <p>&copy; 2024 TecnoParts. Todos los derechos reservados.</p>
