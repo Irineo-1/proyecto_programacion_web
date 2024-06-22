@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="header">
-        <img src="https://github.com/Irineo-1/proyecto_programacion_web/blob/bienvenida/secciones/css/bienvenida/Logo%20Pagina.png" alt="TecnoParts Logo" class="logo">
+        <img src="https://github.com/Irineo-1/proyecto_programacion_web/blob/bienvenida/secciones/css/bienvenida/Logo%20Pagina.png?raw=true" alt="TecnoParts Logo" class="logo">
         <h1>¡Bienvenido a TecnoParts!</h1>
         <p>Su socio de confianza en piezas tecnológicas.</p>
     </div>
