@@ -23,11 +23,12 @@
     <?php include 'secciones/catalogoProductos.php'; ?> 
 
     <!-- Clientes -->
-    <?php// include ''; ?> 
-
+    <?php  //include 'secciones/login.php/register.php'; ?> 
+    
     <!-- Contáctanos -->
     <?php include 'secciones/contactanos.php'; ?> 
 
     <script src="secciones/js/catalogoProductos/catalogo_productos.js"></script>
+    <script src="secciones/js/clientes/script.js"></script>
 </body>
 </html>
