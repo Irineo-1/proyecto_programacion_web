@@ -18,13 +18,13 @@
         </div>
         <div class="main-content">
             <div class="header">
-                <img src="logo.png" alt="TecnoParts Logo" class="logo">
+                <img src="https://github.com/Irineo-1/proyecto_programacion_web/blob/bienvenida/secciones/css/bienvenida/Logo%20Pagina.png?raw=true" alt="TecnoParts Logo" class="logo">
                 <h1>¡Bienvenido a TecnoParts!</h1>
                 <p>Su socio de confianza en piezas tecnológicas.</p>
             </div>
         </div>
         <a href="#" class="scroll-to-top" onclick="scrollToTop(); return false;">
-            <img src="arrow-up.png" alt="Subir">
+            <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
         </a>
     </section>
 
