@@ -13,13 +13,6 @@
         <h1>¡Bienvenido a TecnoParts!</h1>
         <p>Su socio de confianza en piezas tecnológicas.</p>
     </div>
-    <div class="main-content">
-        <img src="banner.jpg" alt="Banner" class="banner">
-        <div class="cta-buttons">
-            <button onclick="window.location.href='productos.php'">Ver Productos</button>
-            <button onclick="window.location.href='login.php'">Iniciar Sesión</button>
-        </div>
-    </div>
     <a href="#" class="scroll-to-top">
         <img src="arrow-up.png" alt="Subir">
     </a>
