@@ -16,10 +16,6 @@
     <a href="#" class="scroll-to-top">
         <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
     </a>
-    <footer>
-        <p>&copy; 2024 TecnoParts. Todos los derechos reservados.</p>
-        <p><a href="privacidad.php">Política de Privacidad</a> | <a href="terminos.php">Términos y Condiciones</a></p>
-    </footer>
 </section>
 <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
 
