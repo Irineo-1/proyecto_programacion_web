@@ -15,10 +15,7 @@
     <?php include 'secciones/bienvenida.php'; ?>
 
     <!-- Ejemplo de como insertar un codigo aparte -->
-    <?php // include 'secciones/catalogoProductos.php'; ?> 
-
-    <!-- Inicio bienvenida -->
-    <?php include 'secciones/bienvenida.php'; ?> 
+    <?php // include 'secciones/catalogoProductos.php'; ?>  
 
     <!-- Quiénes somos -->
     <?php include 'secciones/quienesSomos.php'; ?> 
