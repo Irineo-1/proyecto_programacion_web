@@ -14,6 +14,10 @@
                 <h1>¡Bienvenido a TecnoParts!</h1>
                 <p>Su socio de confianza en piezas tecnológicas.</p>
             </div>
+            <div class="header2">
+            <h1>Tu Socio en Componentes de Computación.</h1>
+            <p>Explora nuestro catálogo y descubre cómo podemos ayudarte a llevar tus proyectos al siguiente nivel. ¡En TecnoParts, tu éxito es nuestro compromiso!</p>
+            </div>
             <div class="spacer"></div>
         </div>
         <a href="#" class="scroll-to-top" onclick="scrollToTop(); return false;">
