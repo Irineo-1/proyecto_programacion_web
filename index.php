@@ -19,7 +19,7 @@
     <?php include 'secciones/quienesSomos.php'; ?> 
 
     <!-- Catálogo de productos y servicios -->
-    <!-- <?php include 'secciones/catalogoProductos.php'; ?>  -->
+    <?php include 'secciones/catalogoProductos.php'; ?>
 
     <!-- Clientes -->
     <!-- <?php// include ''; ?>  -->
