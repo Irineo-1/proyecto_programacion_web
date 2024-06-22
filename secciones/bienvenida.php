@@ -21,7 +21,6 @@
 </section>
 <link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
 
-
 <script>
     window.onscroll = function() {scrollFunction()};
     
