@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: '', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ecf0f1;
+}
+
+main {
+    padding: 40px 20px;
+}
+
+.about-us {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.about-us .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us .intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-us .intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.about-us .intro img:hover {
+    transform: scale(1.05);
+}
+
+.about-us .intro p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #666;
+    font-size: 1.1em;
+}
+
+.about-us .details {
+    width: 100%;
+}
+
+.about-us .details h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+.about-us .details p,
+.about-us .details ul {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: #666;
+    font-size: 1.1em;
+}
+
+.about-us .details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-us .details ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.cadaFoto {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: center;
+}
+
+.imagenDaniela {
+    background-image: url(https://imgs.search.brave.com/U04gP4oVII3LqSPULSe_bcQvtbP8GTmOmq8IhPg6lnI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzdkL2Nh/Lzc5LzdkY2E3OTMy/M2QxNGY1NGE2NzU2/MjE1N2E3MGMxNDhj/LmpwZw);
+}
+
+.imagenIrineo {
+    background-image: url(https://imgs.search.brave.com/gtkuFtbthETBjg-He9Wzd2jStNh8MdR64gDc1H59N8I/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGVsbG9tYWdh/emluZS5jb20vaG9y/aXpvbi9zcXVhcmUv/OWI5YWQzNTg2ZmIy/LWhlbnJ5LWNhdmls/bC10LmpwZw)
+}
+
+.imagenCheco {
+    background-image: url(https://imgs.search.brave.com/EbIlsmfRh7Nhl4SJvsrck3pFezwyU4GVVPn99Ib4ysM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/Mi5tb3RvcnNwb3J0/LmNvbS9pbWFnZXMv/bWdsLzJ5M3FSZG82/L3M4MDAvc2VyZ2lv/LXBlcmV6LXJlZC1i/dWxsLXJhY2luZy5q/cGc);
+}
+
+.imagenMiguel {
+    background-image: url(https://imgs.search.brave.com/lKTTyQwu-z-laX_MJFA2fcw1VTpyN32kaHI4TDGBAaI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmltYWdlcmVz/aXplci5jb20vaW1h/Z2VzL21lbWVzL1Np/Z21hLU1hbGUtbWVt/ZS02LmpwZw);
+}
+
+.imagenIntegrante {
+    background-image: url(../../../utils/integrandte.jpg);
+}
+
+.every-card-integrantes {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
