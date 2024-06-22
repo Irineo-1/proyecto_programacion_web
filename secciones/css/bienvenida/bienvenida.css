@@ -71,6 +71,10 @@ body {
 .header .logo {
     max-width: 150px;
     margin-bottom: 20px;
+    /* Centrar el logo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header h1 {
