@@ -23,6 +23,10 @@ body {
     padding: 10px 20px;
 }
 
+.navbar-left, .navbar-right {
+    display: flex;
+}
+
 .navbar button {
     background-color: transparent;
     color: white;
@@ -41,10 +45,14 @@ body {
     padding: 20px;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos del encabezado */
 }
 
 .header .logo {
     max-width: 150px;
+    margin-bottom: 20px; /* Añade espacio entre el logo y el texto */
 }
 
 .header h1 {
