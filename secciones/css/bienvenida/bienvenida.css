@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f2f5; /* Fondo más claro y profesional */
+    background-color: #f0f2f5;
     line-height: 1.6;
 }
 
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c3e50; /* Color más sobrio para la barra de navegación */
+    background-color: #2c3e50;
     color: white;
     padding: 10px 20px;
 }
@@ -32,18 +32,57 @@ body {
 }
 
 .navbar button:hover {
-    background-color: #34495e; /* Color más oscuro al hacer hover */
+    background-color: #34495e;
 }
 
-/* Estilos para el contenido */
-.content {
-    padding: 20px;
+/* Estilos para el encabezado */
+.header {
     text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
 }
 
-.content h1 {
+.header .logo {
+    max-width: 150px;
+}
+
+.header h1 {
     font-size: 32px;
-    color: #2c3e50; /* Color que combina con la barra de navegación */
+    color: #2c3e50;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content .banner {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.cta-buttons button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-buttons button:hover {
+    background-color: #34495e;
 }
 
 /* Estilos para el botón de subir */
@@ -51,32 +90,51 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #2c3e50; /* Color de fondo del botón */
-    width: 60px; /* Ancho del botón */
-    height: 60px; /* Alto del botón */
+    background-color: #2c3e50;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     text-align: center;
-    line-height: 60px; /* Ajustar según el alto del botón */
+    line-height: 60px;
     text-decoration: none;
-    z-index: 1000; /* Asegura que esté por encima del contenido */
-    opacity: 0; /* Lo hacemos invisible inicialmente */
-    pointer-events: none; /* No se puede hacer clic inicialmente */
-    transition: opacity 0.3s ease; /* Transición suave de opacidad */
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
 }
 
 .scroll-to-top img {
-    max-width: 60%; /* Ajustar el tamaño máximo de la imagen */
-    max-height: 60%; /* Ajustar el tamaño máximo de la imagen */
-    vertical-align: middle; /* Alineación vertical del ícono */
+    max-width: 60%;
+    max-height: 60%;
+    vertical-align: middle;
 }
 
 .scroll-to-top:hover {
-    background-color: #34495e; /* Fondo más oscuro al hacer hover */
+    background-color: #34495e;
     cursor: pointer;
 }
 
-/* Estilos para mostrar el botón al hacer scroll hacia abajo */
 .scroll-to-top.show {
     opacity: 1;
     pointer-events: auto;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
