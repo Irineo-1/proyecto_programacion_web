@@ -28,6 +28,7 @@
     <!-- Contáctanos -->
     <?php // include 'secciones/contactanos.php'; ?> 
 
-    <script src="secciones/js/catalogoProductos/catalogo_productos.js"></script>
+    <script type="module" src="secciones/js/catalogoProductos/catalogo_productos.js"></script>
+    
 </body>
 </html>
