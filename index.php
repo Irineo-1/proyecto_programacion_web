@@ -15,8 +15,6 @@
     <!-- Inicio bienvenida -->
     <?php include 'secciones/bienvenida.php'; ?>
 
-    <!-- Ejemplo de como insertar un codigo aparte -->
-
     <!-- Quiénes somos -->
     <?php include 'secciones/quienesSomos.php'; ?> 
 
