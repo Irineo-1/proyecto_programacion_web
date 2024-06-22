@@ -77,7 +77,6 @@ class Productos {
 
         return $res;
     }
-
 }
 
 ?>

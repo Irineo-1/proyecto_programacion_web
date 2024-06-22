@@ -1,24 +1,37 @@
-<section>
-    <div class="navbar">
-        <div class="navbar-left">
-            <button onclick="window.location.href='index.php'">Inicio</button>
+    <section>
+        <div class="navbar">
+            <div class="navbar-left">
+                <button onclick="window.location.href='index.php'">Inicio</button>
+            </div>
+            <div class="navbar-right">
+                <button onclick="window.location.href='secciones/catalogoProductosBusqueda.php'">Productos</button>
+                <button onclick="window.location.href='contactos.php'">Inicio de Sesión</button>
+            </div>
         </div>
+
+        <div class="main-content">
+            <div class="header">
+                <img src="https://github.com/Irineo-1/proyecto_programacion_web/blob/bienvenida/utils/Logo%20Pagina.png?raw=true" alt="TecnoParts Logo" class="logo">
+                <h1>¡Bienvenido a TecnoParts!</h1>
+                <p>Su socio de confianza en piezas tecnológicas.</p>
+            </div>
+            <div class="header2">
+            <h1>Tu Socio en Componentes de Computación.</h1>
+            <p>Explora nuestro catálogo y descubre cómo podemos ayudarte a llevar tus proyectos al siguiente nivel. ¡En TecnoParts, tu éxito es nuestro compromiso!</p>
+            </div>
+            <div class="spacer"></div>
+
         <div class="navbar-right">
             <button onclick="window.location.href='productos.php'">Productos</button>
             <button onclick="window.location.href='secciones/clientes.php'">Inicio de Sesión</button>
-        </div>
-    </div>
-    <div class="content">
-        <h1>¡Bienvenido a TecnoParts!</h1>
-        <!-- Contenido de la página de bienvenida -->
-    </div>
-    <a href="#" class="scroll-to-top">
-        <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
-    </a>
-</section>
-<link rel="stylesheet" href="secciones/css/bienvenida/bienvenida.css">
 
-<script>
+        </div>
+        <a href="#" class="scroll-to-top" onclick="scrollToTop(); return false;">
+            <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
+        </a>
+    </section>
+
+    <script>
     window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {
@@ -29,4 +42,3 @@
         }
     }
 </script>
-
