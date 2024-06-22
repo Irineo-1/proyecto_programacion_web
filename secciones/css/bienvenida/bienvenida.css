@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+.section-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el contenido */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+/* Estilos para el botón de subir */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #202020; /* Color de fondo del botón */
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Alto del botón */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px; /* Ajustar según el alto del botón */
+    text-decoration: none;
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    opacity: 0; /* Lo hacemos invisible inicialmente */
+    pointer-events: none; /* No se puede hacer clic inicialmente */
+    transition: opacity 0.3s ease; /* Transición suave de opacidad */
+}
+
+.scroll-to-top img {
+    max-width: 80%; /* Ajustar el tamaño máximo de la imagen */
+    max-height: 80%; /* Ajustar el tamaño máximo de la imagen */
+    vertical-align: middle; /* Alineación vertical del ícono */
+}
+
+.scroll-to-top:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+/* Estilos para mostrar el botón al hacer scroll hacia abajo */
+.scroll-to-top.show {
+    opacity: 1;
+    pointer-events: auto;
+}
