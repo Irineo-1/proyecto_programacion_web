@@ -14,6 +14,7 @@
                 <h1>¡Bienvenido a TecnoParts!</h1>
                 <p>Su socio de confianza en piezas tecnológicas.</p>
             </div>
+            <div class="spacer"></div>
         </div>
         <a href="#" class="scroll-to-top" onclick="scrollToTop(); return false;">
             <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
