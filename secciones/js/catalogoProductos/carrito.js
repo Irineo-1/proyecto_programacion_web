@@ -42,7 +42,21 @@ createApp({
         }
 
         const realizarCompra = () => {
+            if(productos.value.lenght == 0) return Swal.fire("No hay productos", "", "Info")
+
+            let form = new FormData()
+            form.append("action", "comprar")
+            form.append("productos", JSON.stringify(productos.value))
+            fetch("../controladores/catalogoProductos.php", {
+                method: "POST",
+                body: form
+            })
+            localStorage.clear()
             Swal.fire("Se realizo la compra!", "", "success")
+        }
+
+        const goCatalogo = () => {
+            window.location.href = "catalogoProductosBusqueda.php"
         }
 
         getCarrito()
@@ -50,7 +64,8 @@ createApp({
         return {
             productos,
             eliminarProductoCarrito,
-            realizarCompra
+            realizarCompra,
+            goCatalogo
         }
     }
 }).mount("#carrito")

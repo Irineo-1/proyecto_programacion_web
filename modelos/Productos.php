@@ -68,6 +68,15 @@ class Productos {
 
         return $res;
     }
+
+    public static function comprar($producto) {
+        $conn = Conexion::getConnetion();
+        $query = "UPDATE ".self::$Tabla." SET existencia = existencia - ".$producto->cantidad." WHERE id = ".$producto->id."";
+
+        $res = $conn->query($query);
+
+        return $res;
+    }
 }
 
 ?>
