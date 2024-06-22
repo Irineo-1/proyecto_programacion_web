@@ -4,9 +4,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; /* Centra horizontalmente en el viewport */
+    align-items: center; /* Centra verticalmente en el viewport */
     min-height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
     text-align: center;
 }
@@ -51,30 +50,21 @@ body {
 
 /* Estilos para el contenido principal */
 .main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    height: 100vh; /* Asegura que el contenido principal ocupe toda la altura de la ventana */
+    text-align: center; /* Asegura que el contenido esté centrado horizontalmente */
+    margin-top: 80px; /* Ajusta el margen superior para dejar espacio a la barra de navegación fija */
 }
 
 .header {
     padding: 20px;
     background-color: #ffffff;
     border-bottom: 1px solid #ddd;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: inline-block; /* Permite centrar el contenido dentro de main-content */
+    text-align: center; /* Asegura que el texto esté centrado dentro de header */
 }
 
 .header .logo {
     max-width: 150px;
     margin-bottom: 20px;
-    /* Centrar el logo */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .header h1 {
