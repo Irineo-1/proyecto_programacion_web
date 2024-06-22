@@ -66,7 +66,7 @@
                     <div class="cadaFoto imagenIntegrante"></div>
                     <br>
                     <div class="contenido">
-                        <h5>Ricardo Miguel Puga Preciado</h5>
+                        <h5>Julian Gonzalez Lemus</h5>
                         <span><strong>Ingeniero de sistemas</strong></span>
                     </div>
                 </div>
