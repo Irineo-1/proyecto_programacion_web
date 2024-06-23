@@ -29,13 +29,14 @@ createApp({
                 method: "POST",
                 body: form
             }).then(text => text.text()).then(data => {
+                console.log(data)
                 let res = decodeJson(data)
                 productos.value = res
             })
         }
 
         const validateUser = () => {
-            window.location.href = "http://localhost/proyecto_programacion_web/secciones/catalogoProductosBusqueda.php"
+            window.location.href='secciones/clientes.php'
         }
 
         const decodeJson = (data) => {

@@ -11,7 +11,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 85%;
     height: 100%;
     background-image: linear-gradient(to right, #f2f2f2 0%, #eee 50%, #f2f2f2 100%); 
     transform: skewX(-15deg); 

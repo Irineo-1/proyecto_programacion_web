@@ -10,7 +10,7 @@ createApp({
             let carrito = JSON.parse(localStorage.getItem("temporalCarrito"))
 
             if(!carrito) return
-
+            console.log(carrito)
             productos.value = carrito
 
             for(let item of productos.value) {

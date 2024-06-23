@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'headCatalogos.php'; ?>
+<style>
+    body {
+        background-image: none;
+    }
+</style>
+
 <body>
 
-    <section id="catalogo_productos_busqueda">
+    <div class="navbar" style="height: 60px;">
+        <div class="navbar-left">
+            <button onclick="window.location.href='index.php'">Inicio</button>
+        </div>
+        <div class="navbar-right">
+            <button onclick="window.location.href='../Controladores/cerrar_sesion.php'">Cerrar Sesión</button>
+        </div>
+    </div>
+
+    <section id="catalogo_productos_busqueda" style="margin-top: 50px;">
 
         <div class="contenedor">
             <div class="categorias">

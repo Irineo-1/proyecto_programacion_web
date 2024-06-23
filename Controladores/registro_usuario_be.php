@@ -19,7 +19,7 @@
      echo '
        <script>
          alert("Este correo ya existe, intenta otro diferente");
-         window.location = "../clientes.php";
+         window.location = "../index.php";
        </script>
      ';
      exit();
@@ -32,7 +32,7 @@
       echo '
         <script>
           alert("Este usuario ya existe, intenta otro diferente");
-          window.location = "../clientes.php";
+          window.location = "../index.php";
         </script>
       ';
       exit();
@@ -44,14 +44,14 @@
     echo '
        <script>
        alert("usuario almacenado exitosamente");
-        window.location = "../clientes.php";
+        window.location = "../secciones/catalogoProductosBusqueda.php";
        </script>
     ';
   }else{
     echo '
        <script>
        alert("intentalo de nuevo");
-       window.location = "../clientes.php";
+       window.location = "../index.php";
        </script>
     ';
   }

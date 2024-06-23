@@ -4,7 +4,7 @@
 <body>
 
     <div id="carrito" class="container" style="margin-top: 20px;">
-        <div v-if="productos.lenght > 0">
+        <div v-if="productos.length > 0">
             <div class="list-carrito">
                 <ul class="list-group">
                     <li class="list-group-item" aria-current="true" v-for="producto, i in productos">

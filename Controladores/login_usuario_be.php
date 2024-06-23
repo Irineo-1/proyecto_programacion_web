@@ -14,14 +14,14 @@
   
   if(mysqli_num_rows($validar_login) > 0){
     $_SESSION['usuario'] = $correo;
-    header("location: ../bienvenida.php");
+    header("location: ../secciones/catalogoProductosBusqueda.php");
     exit();
 
   } else {
     echo '
      <script>
       alert ("Usuario no encontrado, verifica los datos");
-      window.location = "../clientes.php";
+      window.location = "index.php";
      </script>
     ';
     exit();
