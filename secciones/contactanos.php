@@ -35,5 +35,5 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="./secciones/js/contactanos.js"></script>
+<script src="secciones/js/contac.js/contactanos.js"></script>
 </html>

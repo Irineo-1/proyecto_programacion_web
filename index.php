@@ -15,9 +15,6 @@
 <body>
 
     <!-- Inicio bienvenida -->
-    <!-- <?php // include ''; ?>  -->
-
-    <!-- Inicio bienvenida -->
     <?php include 'secciones/bienvenida.php'; ?>
 
     <!-- Quiénes somos -->
@@ -26,13 +23,9 @@
     <!-- Catálogo de productos y servicios -->
     <?php include 'secciones/catalogoProductos.php'; ?>
 
-    <!-- Clientes -->
-    <!-- <?php// include ''; ?>  -->
-
     <!-- Contáctanos -->
     <?php include 'secciones/contactanos.php'; ?> 
 
-    <script type="module" src="secciones/js/catalogoProductos/catalogo_productos.js"></script>
     <script src="secciones/js/catalogoProductos/catalogo_productos.js"></script>
     <script src="secciones/js/clientes/script.js"></script>
     <script type="module" src="secciones/js/catalogoProductos/catalogo_productos.js"></script>

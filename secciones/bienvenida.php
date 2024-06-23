@@ -21,11 +21,6 @@
             </div>
             <div class="spacer"></div>
 
-        <div class="navbar-right">
-            <button onclick="window.location.href='productos.php'">Productos</button>
-            <button onclick="window.location.href='secciones/clientes.php'">Inicio de Sesión</button>
-
-        </div>
         <a href="#" class="scroll-to-top" onclick="scrollToTop(); return false;">
             <img src="https://cdn-icons-png.freepik.com/256/8489/8489783.png" alt="Subir">
         </a>
